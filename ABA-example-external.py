@@ -68,11 +68,11 @@ schedule_job_url = 'https://api.syniverse.com/aba/v1/schedules'
 
 schedule_job_headers = {'Authorization': 'Bearer ' + access_token, 'Content-Type': 'application/json'}
 
-schedule_job_payload = {"schedule": { "jobId" : "NIS-Scrub-v1", "name" : "NISScrub", "inputFileId" : file_id,
+schedule_job_payload = {"schedule": { "jobId" : "NIS-Scrub-v2-fs1", "name" : "NISScrub", "inputFileId" : file_id,
                                        "fileRetentionDays" : 30, "scheduleRetentionDays" : 30,
                                        "outputFileNamingExpression" : "DS1-NIS-Scrub-output.txt",
-                                       "outputFileFolder" : "/opt/apps/aba/output",
-                                       "jobRuntimeContext" : {}}}
+                                       "outputFileFolder" : "/opt/apps/aba/output"
+                                      }}
 
 schedule_job_response = requests.post(schedule_job_url, json=schedule_job_payload,
                                        headers=schedule_job_headers)
