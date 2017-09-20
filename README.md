@@ -8,7 +8,6 @@ Requires
 - SDC Subscription to Batch Automation, Media Storage and Phone Number Verification
 - SDC Application created with Batch Automation, Media Storage and Phone Number Verification enabled for the App.
 - Access Token for application
-- JobID (ask your sales representative to create one for you)
 
 Detailed instructions can be found at https://developer.syniverse.com & https://sdcdocumentation.syniverse.com/index.php
 
