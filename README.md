@@ -5,7 +5,7 @@ Syniverse Developer Centre (SDC) is at https://developer.syniverse.com
 
 Requires
 - Syniverse Developer Community (SDC) Account
-- SDC Subscription to Batch Automation, Media Storage and Phone Number Verification
+- SDC Subscription to Phone Number Verification
 - SDC Application created with Batch Automation, Media Storage and Phone Number Verification enabled for the App.
 - Access Token for application
 
