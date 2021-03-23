@@ -11,24 +11,12 @@ Requires
 
 Detailed instructions can be found at https://developer.syniverse.com & https://sdcdocumentation.syniverse.com/index.php
 
-- Python installed (version 2.7 used in the example)
-- Requests Module installed
-
-
-
-###New Version
+- Python installed (version 3.6 used in the example)
+- time, zlib, csv, sys, os, requests module's should be installed ($pip install <module name>)
 
 File Name:PNV-Batch-Number-Lookup-Tool.py
 
-###Requires
-- Syniverse Developer Community (SDC) Account
-- SDC Subscription to Phone Number Verification
-- SDC Application created with Batch Automation, Media Storage and Phone Number Verification enabled for the App.
-- Access Token for application
 
-###Detailed instructions can be found at https://developer.syniverse.com & https://sdcdocumentation.syniverse.com/index.php
-- Python installed (version 3.6 used in the example)
-- time, zlib, csv, sys, os, requests module's should be installed ($pip install <module name>)
 
 #Provide Access token in the script
 - Open the script in a Text File or Python Editor Tool
