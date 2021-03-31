@@ -3,7 +3,7 @@ Python example for Batch Job Automation using the Syniverse Developer Community
 
 Syniverse Developer Centre (SDC) is at https://developer.syniverse.com
 
-Requires
+### Requires
 - Syniverse Developer Community (SDC) Account
 - SDC Subscription to Phone Number Verification
 - SDC Application created with Batch Automation, Media Storage and Phone Number Verification enabled for the App.
@@ -18,11 +18,11 @@ File Name:PNV-Batch-Number-Lookup-Tool.py
 
 
 
-#Provide Access token in the script
+### Provide Access token in the script
 - Open the script in a Text File or Python Editor Tool
 - provide the Bearer Token that you are authorized to use under the attribute access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
-###Command to run the script/tool
+### Command to run the script/tool
 
 
 $ python <Script_Name> <input_file> <feature_set> <file_retention_days>
@@ -31,11 +31,11 @@ $ python <Script_Name> <input_file> <feature_set> <file_retention_days>
 - feature_set =  fs1,  fs2, fs3, fs23
 - file_retention_days = anywhere between 1 and 7
 
-###Eg., In order to run from command line:
+Eg., In order to run from command line:
 - $ python PNV-Batch-Number-Lookup-Tool.py phonenumbers.txt fs1 1
 
     
-###How to identify output files
+### How to identify output files
 - All the output files, are generated in the same directory.
 - The following files are created only when there is a success, error or retry output,
 - else the files will not be created. 
@@ -50,7 +50,3 @@ $ python <Script_Name> <input_file> <feature_set> <file_retention_days>
 - you will need to take back up of these files before you can start the next process.
   else the files will be overwritten.
  
-
-
-
-
